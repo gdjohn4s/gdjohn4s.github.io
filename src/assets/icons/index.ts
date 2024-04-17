@@ -8,12 +8,12 @@ import SvgSpinnersBlocksWave from './SvgSpinnersBlocksWave.vue'
 import SolarSmileSquareBold from './SolarSmileSquareBold.vue'
 
 export {
-  MingcuteSocialXLine,
-  MingcuteLinkedinFill,
-  MingcuteGithub2Fill,
-  MingcuteVueLine,
-  MdiLanguagePython,
-  MdiLanguageRust,
-  SvgSpinnersBlocksWave,
-  SolarSmileSquareBold
+    MingcuteSocialXLine,
+    MingcuteLinkedinFill,
+    MingcuteGithub2Fill,
+    MingcuteVueLine,
+    MdiLanguagePython,
+    MdiLanguageRust,
+    SvgSpinnersBlocksWave,
+    SolarSmileSquareBold
 }

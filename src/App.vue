@@ -7,25 +7,25 @@ console.log(hello)
 </script>
 
 <template>
-  <header>
-    <Navbar />
-  </header>
-  <RouterView class="router-view" v-slot="{ Component }">
-    <Transition name="slideroute">
-      <component :is="Component" />
-    </Transition>
-  </RouterView>
-  <Footer />
+    <header>
+        <Navbar />
+    </header>
+    <RouterView class="router-view" v-slot="{ Component }">
+        <Transition name="slideroute">
+            <component :is="Component" />
+        </Transition>
+    </RouterView>
+    <Footer />
 </template>
 
 <style scoped>
 .slideroute-enter-active,
 .slideroute-leave-active {
-  transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .slideroute-enter-from,
 .slideroute-leave-to {
-  opacity: 0;
+    opacity: 0;
 }
 </style>
