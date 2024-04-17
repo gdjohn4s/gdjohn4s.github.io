@@ -2,8 +2,21 @@
 import { RouterView } from 'vue-router'
 import { Navbar, Footer } from '@/components'
 import { hello } from './defs/messages'
+import { useSeoMeta } from '@vueuse/head'
 
 console.log(hello)
+
+useSeoMeta({
+    title: 'gdjohn4s | Portfolio',
+    ogImage: {
+        url: '/img/og_bg.png',
+        type: 'image/png'
+    },
+    twitterImage: {
+        url: '/img/og_bg.png',
+        type: 'image/png'
+    }
+})
 </script>
 
 <template>
